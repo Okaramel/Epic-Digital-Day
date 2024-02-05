@@ -1,0 +1,78 @@
+#background {
+    position: absolute;
+    margin-top: 100px;
+    z-index: -1;   /* jspu ce que ca fait ca */
+    background-image: url("img/deathstinations_banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    height: 50%;
+}
+
+#content {
+    padding: 10px;
+}
+
+#nav {
+    display: flex;
+    width: 100vw;
+    overflow: hidden;
+    justify-content: center;
+    margin-top: 5px;
+    padding: 10px;
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        margin: 0px;
+        padding: 0px;
+    }
+}
+
+.nav_button {
+    background-color: #e7e5e5;
+    border-radius: 10px;
+    padding: 10px;
+    float: left;
+    list-style-type: none;
+
+    a {                     /* texte dans les boutons (balise "a" parce que c'est des liens vers certaines parties de la page) */
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.nav_button:hover {         /* animation des boutons */
+    transform: scale(1.1);
+    transition: transform 0.4s ease;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    margin-top: 25px;
+    align-items: center;
+    text-align: center
+}
+
+.container {
+        gap: 50px;
+        width: 80%;
+        min-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 5px; /* arrondi les coins */
+        background-color: rgb(236, 236, 236);
+        color: rgb(0, 0, 0);
+        padding: 20px; /* espace entre le texte et la border de la div */
+        font-size: 25px;
+        display: flex;
+        justify-content: center; /* centre le texte */
+}
+
+.image{
+    display: flex;
+    justify-content: center; /* Centre le texte*/
+}
